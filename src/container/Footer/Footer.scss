@@ -14,6 +14,7 @@
 
     flex-wrap: wrap;
     margin: 4rem 2rem 2rem;
+    
 
     .app__footer-card{
         min-width: 290px;
@@ -68,13 +69,15 @@
     width: 60%;
     flex-direction: column;
     margin: 1rem 2rem;
+    background-color: var(--primary-color);
+    
 
     div{
         width: 85%;
         margin: 0.75rem 0;
         border-radius: 10px;
         cursor: pointer;
-        background-color: var(--primary-color);
+        background-color: var(--white-color);
 
         transition: all 0.3s ease-in-out;
     }
@@ -84,7 +87,7 @@
         padding: 1rem;
         border:none;
         border-radius: 7px;
-        background-color: var(--primary-color);
+        background-color: var(--white-color);
 
         font-family: var(--font-base);
         color: var(--secondary-color);
@@ -96,7 +99,7 @@
     }
 
     &:hover{
-        box-shadow: 0 0 25px var(--primary-color);
+        box-shadow: 0 0 25px var(--white-color);
     }
 
     button{

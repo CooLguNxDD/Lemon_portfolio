@@ -21,7 +21,12 @@ const Skills = () => {
     useEffect(() => {
         try{
             client.fetch(exQuery).then((data) =>{
-                setExperiences(data);
+                const sortedExperiences = [...data].sort((a, b) => {
+                    const year1 = a.year.split(" ")[0];
+                    const year2 = b.year.split(" ")[0];
+                    return year2 - year1; // Sort in descending order
+                });
+                setExperiences(sortedExperiences);
             })
         }catch (exceptionVar) {
             console.log("no experience")

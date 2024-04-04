@@ -26,6 +26,9 @@
         &:hover{
             background-color: var(--secondary-color);
             color: #fff;
+            @media (prefers-color-scheme: dark) {
+                color: #2b0fff;
+            }
     
         }
     
@@ -38,24 +41,27 @@
         
     .item-active{
         background-color: var(--secondary-color);
-        color: #fff;
+        color: var(--grey-color);
+
     }
 }
 
 .app_work-portfolio{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
     align-items: center;
+    
 
     .app__work-item{
         width: 270px;
         flex-direction: column;
-
+        
         margin: 2rem;
         padding: 1rem;
         border-radius: 0.5rem;
-        background-color: #fff;
+        background-color: var(--primary-color);
         color: #000;
 
         cursor: pointer;
@@ -65,28 +71,61 @@
             box-shadow: 0 0 25px rgba(0,0,0,0.2);
         }
 
-        @media screen and(min-width: 2000px){
+        @media screen and(min-width: 1601px){
             width: 470px;
             padding: 1.25rem;
             border-radius: 0.75rem;
         }
-
-        @media screen and(max-width: 350px){
+        @media screen and (min-width: 901px) and (max-width: 1600px){
+            width: 270px;
+            flex-basis:30%;
             width: 100%;
-            margin: 1rem;
+        }
 
+        @media screen and(max-width: 900px){
+            width: 80%;
+            margin: 1rem;
         }
     }
 }
+.arrow-left-btn,
+.arrow-right-btn {
+    position:absolute;
+    margin: 5rem;
+    // top: 2%;
+    // transform: translateY(-50%);
+    width: 5rem;
+    height: 5rem;
+    // background-color: lightgray;
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    // cursor: pointer;
+
+    background-color: transparent;
+    color: var(--black-color);
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    padding: 1%;
+
+    cursor: pointer;
+}
+.arrow-left-btn{
+    left: 0;
+}.arrow-right-btn{
+    right: 0;
+}
+
 .app__work-img{
     width: 100%;
     height: 230px;
-
     position: relative;
-
     img{
         width:100%;
-        height: 100%;
+        height:100%;
         border-radius: 0.5rem;
         object-fit: cover;
     }
@@ -94,7 +133,16 @@
     @media screen and(min-width: 2000px){
         height: 350px;
     }
+    @media screen and(max-width: 900px){
+        img{
+            width: 90%;
+            height: 80%;
+            border-radius: 0.5rem;
+            object-fit: cover;
+        }
+    }
 }
+
 
 .app__work-hover{
     position: absolute;
@@ -147,7 +195,7 @@
         position: absolute;
         padding: 0.5rem 1rem;
         border-radius: 0.5rem;
-        background-color: #fff;
+        background-color: var(--primary-color);
         top: -25px
     }
 }
