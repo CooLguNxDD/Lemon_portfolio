@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Lemon_portfolio/static/css/main.3a6d610f.css",
+    "main.css": "/Lemon_portfolio/static/css/main.cea64d6a.css",
     "main.js": "/Lemon_portfolio/static/js/main.a67072ab.js",
     "static/js/726.f215ca8e.chunk.js": "/Lemon_portfolio/static/js/726.f215ca8e.chunk.js",
     "static/media/about04.png": "/Lemon_portfolio/static/media/about04.fa7b3a72ed32b0e25bfb.png",
@@ -30,12 +30,12 @@
     "static/media/skype.png": "/Lemon_portfolio/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/Lemon_portfolio/index.html",
     "static/media/circle.svg": "/Lemon_portfolio/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.3a6d610f.css.map": "/Lemon_portfolio/static/css/main.3a6d610f.css.map",
+    "main.cea64d6a.css.map": "/Lemon_portfolio/static/css/main.cea64d6a.css.map",
     "main.a67072ab.js.map": "/Lemon_portfolio/static/js/main.a67072ab.js.map",
     "726.f215ca8e.chunk.js.map": "/Lemon_portfolio/static/js/726.f215ca8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a6d610f.css",
+    "static/css/main.cea64d6a.css",
     "static/js/main.a67072ab.js"
   ]
 }
