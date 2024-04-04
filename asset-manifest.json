@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/Lemon_portfolio/static/css/main.2f8658bb.css",
-    "main.js": "/Lemon_portfolio/static/js/main.be787a68.js",
+    "main.css": "/Lemon_portfolio/static/css/main.3a6d610f.css",
+    "main.js": "/Lemon_portfolio/static/js/main.a67072ab.js",
     "static/js/726.f215ca8e.chunk.js": "/Lemon_portfolio/static/js/726.f215ca8e.chunk.js",
     "static/media/about04.png": "/Lemon_portfolio/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/Lemon_portfolio/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/about01.png": "/Lemon_portfolio/static/media/about01.080509de05322b7aafda.png",
     "static/media/profile.png": "/Lemon_portfolio/static/media/profile.7d47c9b7de9f5b967519.png",
-    "static/media/bgIMG.png": "/Lemon_portfolio/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/bgWhite.png": "/Lemon_portfolio/static/media/bgWhite.79658cadae50b3b16ee5.png",
     "static/media/about03.png": "/Lemon_portfolio/static/media/about03.c26c2547bb1a423cf283.png",
     "static/media/spotify.png": "/Lemon_portfolio/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
@@ -31,12 +30,12 @@
     "static/media/skype.png": "/Lemon_portfolio/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/Lemon_portfolio/index.html",
     "static/media/circle.svg": "/Lemon_portfolio/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.2f8658bb.css.map": "/Lemon_portfolio/static/css/main.2f8658bb.css.map",
-    "main.be787a68.js.map": "/Lemon_portfolio/static/js/main.be787a68.js.map",
+    "main.3a6d610f.css.map": "/Lemon_portfolio/static/css/main.3a6d610f.css.map",
+    "main.a67072ab.js.map": "/Lemon_portfolio/static/js/main.a67072ab.js.map",
     "726.f215ca8e.chunk.js.map": "/Lemon_portfolio/static/js/726.f215ca8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f8658bb.css",
-    "static/js/main.be787a68.js"
+    "static/css/main.3a6d610f.css",
+    "static/js/main.a67072ab.js"
   ]
 }
