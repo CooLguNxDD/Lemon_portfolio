@@ -6,7 +6,7 @@
     align-items: center;
 
     padding: 1rem 2rem;
-    background: rgba(255,255,255,0.25);
+    background: var(--primary-color);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
 
@@ -30,6 +30,11 @@
             height: 40px;
         }
     }
+    span{
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: var(--gray-color);
+    }
 }
 
 .app__navbar-links {
@@ -51,14 +56,14 @@
 
             flex-direction: column;
             text-transform: uppercase;
-            font-size: 1rem;
+            font-size: 1.5rem;
 
             font-weight: 500;
             transition: all 0.2s ease-in-out;
 
             &:hover {
                 color: var(--secondary-color);
-                font-size: 1.2rem;
+                font-size: 2rem;
             }
         }
     }

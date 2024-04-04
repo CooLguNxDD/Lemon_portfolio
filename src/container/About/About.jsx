@@ -52,3 +52,5 @@ export default AppWrap(
     'about',
     "app__whitebg"
     );
+
+    

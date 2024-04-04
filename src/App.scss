@@ -96,15 +96,21 @@
     font-weight: 800;
   }
   
-  .p-text {
+  .p-text,.p_text_black {
     font-size: 0.8rem;
     text-align: left;
-    color: var(--gray-color);
+    
     line-height: 1.5;
   
     @media screen and (min-width: 2000px) {
       font-size: 1.75rem;
     }
+  }
+  .p-text{
+    color: var(--gray-color);
+  }
+  .p_text_black{
+    color: var(--grey-color);
   }
   
   .bold-text {

@@ -21,7 +21,7 @@ const SocialMedia = () => {
         </div>
         <div >
             <a href='https://www.linkedin.com/in/andrew-liang-8281301b5/'>
-                <BsDiscord />
+                <BsLinkedin />
             </a>
         </div>
         

@@ -48,12 +48,12 @@ const Footer = () => {
         <div className='app__footer-cards'>
             <div className='app__footer-card'>
                 <img src={images.email} alt='email'></img>
-                <a href='mailto:coolthecclemon@gmail.com' className="p-text">coolthecclemon@gmail.com</a>
+                <a href='mailto:coolthecclemon@gmail.com' className="p_text_black">coolthecclemon@gmail.com</a>
             </div>
 
             <div className='app__footer-card'>
                 <img src={images.mobile} alt='mobile'></img>
-                <a href='tel: +1 (778) 865-8672' className="p-text">+1 (778) 865-8672</a>
+                <a href='tel: +1 (778) 865-8672' className="p_text_black">+1 (778) 865-8672</a>
             </div>
 
         </div>
@@ -100,5 +100,5 @@ const Footer = () => {
 export default AppWrap(
     MotionWrap(Footer, 'app__footer'),
     'contact',
-    "app__whitebg"
+    "app__primarybg"
     );
